@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import TimeLineInterface from "../interfaces/timeLine.interface";
-import TimeLine from "./TimeLine.component";
+import TimeLineInterface from "../interfaces/time-line.interface";
+import TimeLine from "./time-line.component";
 
 export default function MultiTimeLine({ data = [] }: { data: TimeLineInterface[] }) {
   

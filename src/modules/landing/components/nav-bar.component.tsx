@@ -1,5 +1,5 @@
 import { FaBarsStaggered } from "react-icons/fa6";
-import { navItems } from "../const/navItems.const";
+import { navItems } from "../constants/nav-items.constant";
 import { ReactElement, useRef } from "react";
 import { fadeOutAnimation, hideToLeftAnimation } from "../../core/animations/animations";
 

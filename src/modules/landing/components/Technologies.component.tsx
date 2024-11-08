@@ -1,6 +1,6 @@
 import { FaAngular, FaBootstrap, FaCss3, FaGitAlt, FaGithub, FaNodeJs, FaReact } from "react-icons/fa6";
 import { SiDotnet, SiJsonwebtokens, SiMicrosoftsqlserver, SiMongodb, SiMysql, SiNeovim, SiNestjs, SiPostgresql, SiPug, SiRedux, SiTailwindcss, SiWindowsterminal } from "react-icons/si";
-import InfiniteSlider from "../../shared/components/InfiniteSlider.component";
+import InfiniteSlider from "../../shared/components/infinite-slider.component";
 import { VscVscode } from "react-icons/vsc";
 
 export default function Technologies() {

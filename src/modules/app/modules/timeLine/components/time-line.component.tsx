@@ -1,6 +1,6 @@
-import TimeLineInterface from "../interfaces/timeLine.interface";
-import { LandMarkInterface } from "../interfaces/landMark.interface";
-import LandMark from "./LandMark.component";
+import TimeLineInterface from "../interfaces/time-line.interface";
+import { LandMarkInterface } from "../interfaces/land-mark.interface";
+import LandMark from "./land-mark.component";
 import { useEffect, useState } from "react";
 
 export default function TimeLine ({ data, extraClasses = "", maxWidthClasses = "max-w-lg" }: { data: TimeLineInterface, extraClasses?: string, maxWidthClasses?: string }) {

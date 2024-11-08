@@ -1,4 +1,4 @@
-import { LandMarkInterface } from "../interfaces/landMark.interface";
+import { LandMarkInterface } from "../interfaces/land-mark.interface";
 
 export default function LandMark ({ data }: { data: LandMarkInterface }) {
 

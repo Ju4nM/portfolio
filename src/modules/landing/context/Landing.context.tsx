@@ -1,8 +1,8 @@
 import { createContext, ReactNode, useEffect, useState } from "react";
-import { useAxios } from "../../core/App/hooks/useAxios.hook";
-import { LandingDataInterface } from "../interfaces/landingData.interface";
+import { useAxios } from "../../core/app/hooks/use-axios.hook";
+import { LandingDataInterface } from "../interfaces/landing-data.interface";
 import { Landingservice } from "../service/landing.service";
-import { LandingContextInterface } from "../interfaces/landingContext.interface";
+import { LandingContextInterface } from "../interfaces/landing-context.interface";
 
 export const LandingContext = createContext<LandingContextInterface | {}>({});
 

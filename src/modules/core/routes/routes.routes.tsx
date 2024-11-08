@@ -1,5 +1,5 @@
-import { LandingProvider } from "../../landing/context/Landing.context";
-import LandingPage from "../../landing/page/Landing.page";
+import { LandingProvider } from "../../landing/context/landing.context";
+import LandingPage from "../../landing/page/landing.page";
 
 export const routes = [
 	{

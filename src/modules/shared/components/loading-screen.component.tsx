@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import PacmanLoader from "./PacmanLoader.component";
+import PacmanLoader from "./pacman-loader.component";
 
 export default function LoadingScreen({ isVisible = false }: { isVisible: boolean }) {
   const [ display, setDisplay ] = useState<string>("hidden");

@@ -1,6 +1,6 @@
 import { FaChevronDown, FaEnvelope } from "react-icons/fa6"
 import MyImage from "../../../assets/myImage.jpeg";
-import Navbar from "./Navbar.component"
+import Navbar from "./nav-bar.component"
 
 export default function Hero({ className }: { className?: string }) {
   return (

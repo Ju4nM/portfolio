@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import MultiTimeLine from "../../app/modules/timeLine/components/MultiTimeLine.component";
-import TimeLineInterface from "../../app/modules/timeLine/interfaces/timeLine.interface";
-import { useLanding } from "../hooks/useLanding.hook";
+import MultiTimeLine from "../../app/modules/timeLine/components/multi-time-line.component";
+import TimeLineInterface from "../../app/modules/timeLine/interfaces/time-line.interface";
+import { useLanding } from "../hooks/use-landing.hook";
 
 export default function Experience() {
 	const { landingData } = useLanding();

@@ -1,8 +1,8 @@
-import Experience from "../components/Experience.component"
-import Hero from "../components/Hero.component"
-import Navbar from "../components/Navbar.component"
-import Repositories from "../components/Repositories.component"
-import Technologies from "../components/Technologies.component"
+import Experience from "../components/experience.component"
+import Hero from "../components/hero.component"
+import Navbar from "../components/nav-bar.component"
+import Repositories from "../components/repositories.component"
+import Technologies from "../components/technologies.component"
 
 export default function LandingPage() {
 

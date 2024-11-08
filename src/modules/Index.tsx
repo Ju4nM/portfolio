@@ -1,8 +1,8 @@
 // import { createHashRouter, RouterProvider } from "react-router-dom";
-import { AppProvider } from "./core/App/context/App.context";
+import { AppProvider } from "./core/app/context/app.context";
 // import { routes } from "./core/routes/routes.routes";
-import { LandingProvider } from "./landing/context/Landing.context";
-import LandingPage from "./landing/page/Landing.page";
+import { LandingProvider } from "./landing/context/landing.context";
+import LandingPage from "./landing/page/landing.page";
 
 export default function Index() {
   

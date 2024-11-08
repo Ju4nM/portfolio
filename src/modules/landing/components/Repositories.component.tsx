@@ -1,6 +1,6 @@
-import ResponsiveGrid from "../../shared/components/ResponsiveGrid.component";
-import RepositoryCard from "../../app/modules/repository/components/RepositoryCard.component";
-import { useLanding } from "../hooks/useLanding.hook";
+import ResponsiveGrid from "../../shared/components/responsive-grid.component";
+import RepositoryCard from "../../app/modules/repository/components/repository-card.component";
+import { useLanding } from "../hooks/use-landing.hook";
 import { RepositoryInterface } from "../../app/modules/repository/interfaces/repository.interface";
 import { ReactElement, useEffect, useState } from "react";
 
